@@ -4,20 +4,22 @@
 }}
 
 <main>
-    <div class="nav">
-        <div class="buttons">
-            <img src="/svg/back arrow.svg" alt="Back" class="icon" id="back">
-            <img src="/svg/forward arrow.svg" alt="Forward" class="icon" id="forward">
-            <img src="/svg/renewal.svg" alt="Renewal" class="icon" id="reload">
-            <img src="/svg/home page.svg" alt="Home" class="icon" id="home">
-        </div>
-        <div class="field__value">
-            <input type="text" name="value" id="input">
-        </div>
-        <div class="buttons">
-            <img src="/svg/field value.svg" alt="Go to input" class="icon" id="go">
-        </div>
-    </div>
+    <nav class="nav">
+        <button class="nav__button" id="back">
+            <img src="/svg/back_arrow.svg" alt="Back"></button>
+        <button class="nav__button" id="forward">
+            <img src="/svg/forward_arrow.svg" alt="Forward"></button>
+        <button class="nav__button" id="forward" id="reload">
+            <img src="/svg/renewal.svg" alt="Renewal"></button>
+        <button class="nav__button" id="forward" id="home">
+            <img src="/svg/home_page.svg" alt="Home"></button>
+
+        <input type="text" class="nav__input" id="input" />
+
+        <button class="nav__button" id="go">
+            <img src="/svg/field_value.svg" alt="Go to input">
+        </button>
+    </nav>
 </main>
 
 {{!

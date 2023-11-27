@@ -1,26 +1,25 @@
 main {
-	background: white;
 	padding: 60px;
+	display: flex;
 	justify-content: center;
 	} 
 
 	.nav {
-		padding: 16px 40px;
-		gap: 40px;
+		padding: 6px 24px;
+		border-radius: 60px;
+		max-width: 620px;
+		width: 100%;
 		background-color: #35363a;
-		border-radius: 100px;
+		
 		display: flex;
-		justify-content: space-between;
-	}
+		gap: 16px;
+	
 
-	.buttons {
-		display: flex;
-		gap: 40px;
-		align-items: center;
-	}
-
-	.icon {
-		height: 40px;	
+	&__button {
+		margin: 6px 0;
+		width: 24px;
+		height: 24px;
+		
 		transition: 0.7s;
 
 		&:hover {
@@ -28,13 +27,11 @@ main {
 		}
 	}
 
-	.field__value {
-		width: 50%;
+	&__input {
 		background-color: #202124;
+		border-radius: 60px;
+		padding: 0px 20px;
 		color: white;
-		font-size: 32px;
-		font-weight: 500;
-		padding: 16px 40px;
-		border-radius: 50px;
+		width: 100%;
 	}
-
+}
